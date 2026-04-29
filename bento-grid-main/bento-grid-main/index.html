@@ -1,33 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Bento grid</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution { font-size: 0.6875rem; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> -->
 </head>
 <body>
 
   <section class="container-grid">
-    <div class="itens">
-      Social Media 10x Faster with AI
+    <div class="itens" style="--card: hsl(256, 67%, 59%);">
+      <h2>Social Media <span>10x</span> Faster with AI</h2>
 
       <div class="imagem">
         <img src="assets/images/illustration-five-stars.webp" alt="imagem de estrelas aprovação">
       </div>
 
-      Over 4,000 5-star reviews
+      <p>Over 4,000 5-star reviews</p>
     </div>
 
-    <div class="itens">
+    <div class="itens" style="--card: hsl(0, 0%, 100%);">
       <div class="imagem">
         <img src="assets/images/illustration-multiple-platforms.webp" alt="">
       </div>
@@ -57,7 +58,7 @@
       Grow followers with non-stop content.
     </div>
 
-    <div>
+    <div class="itens">
       >56% faster audience growth
       <div class="imagem">
         <img src="assets/images/illustration-audience-growth.webp" alt="">
